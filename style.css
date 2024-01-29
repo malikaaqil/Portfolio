@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1320px;
+    border: 2px solid;
+    margin: 9px auto;
+}
+
+body{
+    background-color: #171C28;
+}
+    /* header */
+
+header{
+    width: 100%;
+}    
+nav{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+    border: 2px solid;
+    font-size: 3rem;
+}
+.logo .grey{
+    color: grey;
+}
+
+.logo .white{
+    color: white;
+}
+
+
+
+
+
+.navigations{
+    width: 40%;
+    border: 2px solid ;
+}
