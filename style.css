@@ -27,7 +27,7 @@ nav{
 .logo{
     width: 20%;
     border: 2px solid;
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 .logo .grey{
     color: grey;
@@ -35,6 +35,10 @@ nav{
 
 .logo .white{
     color: white;
+}
+
+.logo > a{
+    text-decoration: none;
 }
 
 
