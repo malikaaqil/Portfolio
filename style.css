@@ -1,3 +1,24 @@
+@font-face {
+    font-family: Inter ;
+    src: url("fonts/inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+
+
+
+/* logo font-family */
+
+@font-face {
+    font-family: Caveat;
+    src: url("fonts/Caveat/Caveat-VariableFont_wght.ttf");
+}
+
+
+body{
+    font-family: Inter;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,9 +27,10 @@
 }
 
 .container{
-    max-width: 1320px;
+    max-width: 1380px;
     border: 2px solid;
-    margin: 9px auto;
+    margin: 0px auto;
+    padding: 2rem;
 }
 
 body{
@@ -27,8 +49,10 @@ nav{
 .logo{
     width: 20%;
     border: 2px solid;
+    font-family: Caveat;
     font-size: 2.2rem;
 }
+
 .logo .grey{
     color: grey;
 }
@@ -44,8 +68,32 @@ nav{
 
 
 
-
 .navigations{
     width: 40%;
     border: 2px solid ;
+    margin-left: auto;
+
+}
+
+.navigations > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigations > ul li{
+    list-style: none;
+}
+.navigations > ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .4s;
+
+    
+}
+
+
+.navigations > ul li a:hover{
+    color: grey;
 }
