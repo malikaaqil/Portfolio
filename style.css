@@ -30,7 +30,7 @@ body{
     max-width: 1380px;
     border: 2px solid;
     margin: 0px auto;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 body{
@@ -44,6 +44,7 @@ header{
 nav{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -78,10 +79,12 @@ nav{
 .navigations > ul{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .navigations > ul li{
     list-style: none;
+    /* margin: auto; */
 }
 .navigations > ul li a{
     color: white;
@@ -96,4 +99,56 @@ nav{
 
 .navigations > ul li a:hover{
     color: grey;
+}
+
+
+/* heo-section */
+
+/* .hero-main{
+    width: 100%;
+    border: 2px solid;
+    padding-top: 3rem;
+
+}
+.hero-main > img{
+    width: 8rem;
+} */
+
+
+
+
+/* media queries */
+
+@media (max-width: 1050px) {
+
+    .logo{
+        width: 40%;
+        /* border: 2px solid; */
+        /* font-family: Caveat; */
+        /* font-size: 2.2rem; */
+    }
+
+    .navigations{
+        width: 50%;
+    }
+
+    .navigations > ul li a{
+        font-size: 1rem;
+    }
+
+    .navigations > ul li{
+        /* text-align: center; */
+        padding-top: .7rem;
+    }
+    
+}
+
+@media (max-width: 559px) {
+
+    .logo{
+        width: 100%;
+    }
+
+    
+    
 }
