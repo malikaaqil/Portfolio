@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Inter ;
+    font-family: Inter;
     src: url("fonts/inter/Inter-VariableFont_slnt\,wght.ttf");
 }
 
@@ -14,137 +14,147 @@
 }
 
 
-body{
+body {
     font-family: Inter;
 }
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-.container{
+.container {
     max-width: 1380px;
-    border: 2px solid;
+    /* border: 2px solid; */
     margin: 0px auto;
     padding: 1rem 2rem;
 }
 
-body{
+body {
     background-color: #171C28;
 }
-    /* header */
 
-header{
+/* header */
+
+header {
     width: 100%;
-}    
-nav{
+}
+
+nav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.logo{
+.logo {
     width: 20%;
-    border: 2px solid;
+    /* border: 2px solid; */
     font-family: Caveat;
     font-size: 2.2rem;
 }
 
-.logo .grey{
+.logo .grey {
     color: grey;
 }
 
-.logo .white{
+.logo .white {
     color: white;
 }
 
-.logo > a{
+.logo>a {
     text-decoration: none;
 }
 
 
 
 
-.navigations{
+.navigations {
     width: 40%;
-    border: 2px solid ;
+    /* border: 2px solid; */
     margin-left: auto;
 
 }
 
-.navigations > ul{
+.navigations>ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.navigations > ul li{
+.navigations>ul li {
     list-style: none;
     /* margin: auto; */
 }
-.navigations > ul li a{
+
+.navigations>ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     transition: .4s;
 
-    
+
 }
 
 
-.navigations > ul li a:hover{
+.navigations>ul li a:hover {
     color: grey;
 }
 
 
 /* heo-section */
 
-.hero-main{
+.hero-main {
     width: 100%;
-    border: 2px solid;
-    padding-top: 3rem;
+    /* border: 2px solid; */
+    padding-top: 2rem;
 
 }
 
-.hero-heading .greet{
-    border: 2px solid;
+.hero-heading .greet {
+    /* border: 2px solid; */
     /* display: inline-block; */
     color: #709DF6;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.hero-title{
+.hero-title {
     color: white;
     font-size: 6rem;
     font-weight: 900;
-    border: 2px solid;
+    /* border: 2px solid; */
     /* display: inline-block; */
 }
 
-.hero-description{
-    border: 2px solid;
+.hero-description {
+    /* border: 2px solid; */
     width: 55%;
 }
 
-.des-title{
+.des-title {
     color: white;
     padding-top: 1rem;
     font-size: 1.5rem;
-    font-weight: 500;
-    border: 2px solid;
+    font-weight: 600;
+    /* border: 2px solid; */
 
 }
 
-.des-para{
+.des-title span {
+    color: #709DF6;
+}
+
+.des-para {
     font-size: 1.3rem;
-    color: white;
+    font-weight: 500;
+    color: grey;
     text-align: justify;
+    line-height: 1.7rem;
+    padding-top: 1rem;
 }
 
 
@@ -155,48 +165,92 @@ nav{
 
 @media (max-width: 1050px) {
 
-    .logo{
+    .logo {
         width: 40%;
     }
 
-    .navigations{
+    .navigations {
         width: 50%;
     }
 
-    .navigations > ul li a{
+    .navigations>ul li a {
         font-size: 1rem;
     }
 
-    .navigations > ul li{
+    .navigations>ul li {
         padding-top: .7rem;
     }
-    
+
 }
 
 @media (max-width: 559px) {
 
-    .container{
+    .container {
         padding: .5rem 1rem;
     }
 
-    .logo{
+    .logo {
         width: 40%;
         font-size: 1rem;
 
     }
 
-    .navigations{
+    .navigations {
         width: 50%;
     }
-    
-    .navigations > ul li a{
+
+    .navigations>ul li a {
         font-size: .7rem;
     }
 
-    .navigations > ul li{
+    .navigations>ul li {
         padding: 0px;
     }
+
+
+}
+
+@media (max-width: 750px) {
+
+    .hero-title {
+        font-size: 5rem;
+        font-weight: 900;
+    }
+
+    .hero-heading .greet {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .hero-description {
+        /* border: 2px solid; */
+        width: 85%;
+    }
     
+
+}
+
+@media (max-width: 638px) {
+
+    .hero-title {
+        font-size: 4rem;
+        text-align: center;
+    }   
+.hero-description{
+    width: 83%;
+    margin: auto;
+}
     
+.des-title {
+    padding-top: .5rem;
+    font-size: 1.1rem;
+
+}
+
+.des-para {
+    font-size: 1.1rem;
+    padding-top: .5rem;
+}
+
     
 }
