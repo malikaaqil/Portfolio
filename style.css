@@ -110,9 +110,43 @@ nav{
     padding-top: 3rem;
 
 }
-.hero-main > img{
-    width: 8rem;
+
+.hero-heading .greet{
+    border: 2px solid;
+    /* display: inline-block; */
+    color: #709DF6;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
+
+.hero-title{
+    color: white;
+    font-size: 6rem;
+    font-weight: 900;
+    border: 2px solid;
+    /* display: inline-block; */
+}
+
+.hero-description{
+    border: 2px solid;
+    width: 55%;
+}
+
+.des-title{
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid;
+
+}
+
+.des-para{
+    font-size: 1.3rem;
+    color: white;
+    text-align: justify;
+}
+
 
 
 
