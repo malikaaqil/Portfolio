@@ -158,6 +158,39 @@ nav {
 }
 
 
+/* About Section */
+
+.about-main{
+    border: 2px solid red;
+    width: 100%;
+    /* color: grey; */
+    margin-top: 3rem;
+}
+
+.about-main > h2{
+    color: #709DF6;
+    font-size: 3rem;
+}
+
+.about-main div{
+    /* border: 2px solid red; */
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.about-headings{
+    color: white;
+    font-size: 1.7rem;
+    line-height: 4rem;
+}
+
+.about-para{
+    color: grey;
+    font-size: 1.4rem;
+    padding: 0rem 2.8rem;
+    font-weight: 500;
+
+}
 
 
 
