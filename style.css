@@ -161,7 +161,7 @@ nav {
 /* About Section */
 
 .about-main{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     /* color: grey; */
     margin-top: 3rem;
@@ -186,7 +186,7 @@ nav {
 
 .about-para{
     color: grey;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 0rem 2.8rem;
     font-weight: 500;
 
@@ -260,9 +260,35 @@ nav {
     }
 
     .hero-description {
-        /* border: 2px solid; */
         width: 85%;
     }
+
+
+
+    .about-main{
+        margin-top: 3rem;
+    }
+    
+    .about-main > h2{
+        font-size: 2.2rem;
+    }
+    
+    .about-main div{
+        margin-top: 1.4rem;
+    }
+    
+    .about-headings{
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+    
+    .about-para{
+        font-size: 1rem;
+    }
+
+
+
+
 
 
 }
