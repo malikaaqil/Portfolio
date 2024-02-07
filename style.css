@@ -211,6 +211,65 @@ nav {
 }
 
 
+/* Projects section */
+
+.projects-main {
+    width: 100%;
+    /* border: 2px solid; */
+    margin-top: 4rem;
+    /* display: flex; */
+}
+
+.projects-main>h2 {
+    color: #709DF6;
+    font-size: 3rem;
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* border: 2px solid pink; */
+}
+
+.p-cards-wrapper {
+    width: 100%;
+    /* border: 2px solid lawngreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects-main .p-cards {
+    width: 47%;
+    /* border: 2px solid red; */
+    padding: 2rem 0rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-cards>img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: grab;
+    /* border: 5px solid; */
+}
+
+.p-cards>a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    /* border: 2px solid; */
+    /* width: auto; */
+    /* display: ; */
+    /* padding-top: 2rem; */
+    transition: .5s;
+}
+
+.p-cards>a:hover {
+    color: grey;
+    /* cursor: wait; */
+}
+
 
 
 
@@ -244,10 +303,10 @@ nav {
     .hero-content {
         /* border: 2px solid pink; */
         width: 100%;
-    
+
     }
 
-    
+
 }
 
 @media (max-width: 559px) {
