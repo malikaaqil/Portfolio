@@ -478,6 +478,10 @@ nav {
         padding: 1rem;
     }
 
+    .p-cards-wrapper {
+        margin-top: 1.5rem;
+    }
+
 }
 
 @media (max-width: 429px) {
