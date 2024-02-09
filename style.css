@@ -16,6 +16,7 @@
 
 body {
     font-family: Inter;
+    background-color: #171C28;
 }
 
 
@@ -33,9 +34,6 @@ body {
     padding: 1rem 2rem;
 }
 
-body {
-    background-color: #171C28;
-}
 
 /* header */
 
@@ -266,9 +264,41 @@ nav {
     /* cursor: wait; */
 }
 
-.p-cards span{
+.p-cards span {
     color: #709DF6;
 }
+
+
+/* Contact Section */
+
+.contact-main{
+    border: 2px solid;
+    width: 100%;
+}
+
+.contact-main > h2{
+    color: #709DF6;
+    font-size: 2.8rem;
+}
+
+.contact-main>p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: grey;
+    width: 60%;
+    text-align: justify;
+    margin-top: 2rem ;
+    padding: 0rem 2rem;
+    border: 2px solid;
+}
+
+.icons-wrapper{
+    border: 2px solid;
+    width: 60%;
+    margin: auto;
+}
+
+
 
 
 
@@ -354,7 +384,7 @@ nav {
         /* flex-direction: column; */
     }
 
-    
+
 
 }
 
@@ -497,18 +527,18 @@ nav {
     .hero-heading .greet {
         font-size: .8rem;
     }
-    
-   
 
-    .des-title{
+
+
+    .des-title {
         font-size: 1rem;
     }
 
-    .des-para{
+    .des-para {
         font-size: 1rem;
     }
 
-    .about-para{
+    .about-para {
         font-size: 1rem;
     }
 
