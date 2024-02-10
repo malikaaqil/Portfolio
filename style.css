@@ -552,15 +552,16 @@ nav {
 
     .contact-main>h2 {
         font-size: 1.6rem;
+        margin-top: 1rem;
     }
     
     .contact-main>p {
-        margin-top: 1rem;
+        margin-top: 2rem;
         padding: 0rem 1rem;
     }
 
     .icons-wrapper {
-        margin-top: 1rem;
+        margin-top: 2rem;
         padding: 0rem;
     }
 
